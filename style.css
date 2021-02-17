@@ -1,148 +1,133 @@
-body{
-    background-color: #eaebc762;
-    line-height: 1.5em;
-
+body {
+  background-color: #eaebc762;
+  line-height: 1.5em;
 }
 
-#navbar{
-    
-    border-right: solid; 
-    border-left: 10px;   
-    border-color: grey;
-    min-width: 200px;
-    top: 0;
-    left: 0;
-    width: 270px;
-    border-top-width: 100%;
+#navbar {
+  border-right: solid;
+  border-left: 10px;
+  border-color: grey;
+  min-width: 200px;
+  top: 0;
+  left: 0;
+  width: 270px;
+  border-top-width: 100%;
 }
 
-#navbar{
-    position: fixed;
+#navbar {
+  position: fixed;
 }
 
-.header1{
-    color: black;
-    font-weight: bold;
-    margin-left: 50px;
-    margin-top: 20px;
-    font-weight: bold;
-    
+.header1 {
+  color: black;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-weight: bold;
 }
 
-.navbar li{
-    padding-top:0px;    
+.navbar li {
+  padding-top: 0px;
 }
 
-.fixed-left{
-    margin-top: 25px; 
-    margin-left: 10px;
+.fixed-left {
+  margin-top: 25px;
+  margin-left: 10px;
 }
 
-.nav-item{
-    margin-bottom: 20px;
+.nav-item {
+  margin-bottom: 20px;
 }
 
-.nav-item{
-    border-top: 1px solid;
-    padding-top: 15px;
+.nav-item {
+  border-top: 1px solid;
+  padding-top: 15px;
 }
 
-.nav-link{
-
+.nav-link {
 }
 
 /* CODE HAS NO MEANING IN THIS DOCUMENTARY PAGE BUT FOR THE SAKE OF THE PROJECT HAD TO BE INCLUDE */
 
-
-code {
-    display: block;
-    text-align: left;
-    white-space: pre-line;
-    position: relative;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 2;
-    background-color: #f7f7f7;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 5px;
-  }
-
-.busto{
-    float: right;
-    margin: 25px;
-    display: block;
+.code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
 }
 
-.dielman{
-    float: right;
-    margin: 20px;
+.busto {
+  float: right;
+  margin: 25px;
+  display: block;
 }
 
-.historians{
-    float: right;
-    position: sticky;
-    margin: 10px;
+.dielman {
+  float: right;
+  margin: 20px;
 }
 
-.italia{
-    float: left;
-    margin: 20px;
+.historians {
+  float: right;
+  position: sticky;
+  margin: 10px;
 }
 
-.alexandria{
-    float: right;
-    margin: 10px;
+.italia {
+  float: left;
+  margin: 20px;
 }
 
-.man{
-    float: right;
-    margin: 20px;
-    position: inherit;
+.alexandria {
+  float: right;
+  margin: 10px;
 }
 
-.books{
-    float: right;
-    margin: 20px;
+.man {
+  float: right;
+  margin: 20px;
+  position: inherit;
+}
+
+.books {
+  float: right;
+  margin: 20px;
 }
 
 #main-doc {
-    position: absolute;
-    margin-left: 310px;
-    padding: 20px;
-    margin-bottom: 110px;
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
 }
 
-.blockquote{
-    margin: 40px;
-    padding-left: 20px;
-    font-size: 16px;
-    font-weight: bold;
-
+.blockquote {
+  margin: 40px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
-
 
 @media only screen and (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    text-align: center;
+    border-right: none;
+    background-color: white;
+    position: absolute;
+  }
 
-    
-    #navbar{
-        
-        width: 100%;
-        text-align: center;        
-        border-right: none;
-        background-color: white;
-        position: absolute;
-        
-        
-
-    }
-
-    #main-doc{
-        width: 100%;
-        display: inline-block;
-        margin-left: 0;
-        top: 1030px;
-        
-    }
+  #main-doc {
+    width: 100%;
+    display: inline-block;
+    margin-left: 0;
+    top: 1030px;
+  }
 }
-
